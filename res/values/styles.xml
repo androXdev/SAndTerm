@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="actionOverflowMenuStyle">@style/OverflowMenu</item>
+        <item name="android:itemTextAppearance">@style/myCustomMenuTextApearance</item>
+
+
+    </style>
+
+
+    <style name="OverflowMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <!-- Required for pre-Lollipop. -->
+        <item name="overlapAnchor">false</item>
+        <item name="android:popupBackground">@color/menucolor</item>
+        <item name="android:popupAnimationStyle">@anim/abc_slide_out_bottom</item>
+     </style>
+
+    <style name="myCustomMenuTextApearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@color/purple</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+
+
+
+    <style name="button" parent="@android:style/Widget.Button">
+
+        <item name="android:background">@drawable/material_button</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+
+
+</resources>

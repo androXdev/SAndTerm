@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SAndTerm</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_addDevice">ADD DEVICE</string>
+    <string name="action_addUser">ADD USER</string>
+    <string name="action_deleteUser">DELETE USER</string>
+    <string name="action_delete">DELETE DEVICE</string>
+    <string name="action_about">ABOUT DEVELOPER</string>
+    <string name="action_exit">EXIT</string>
+    <color name="bgcolor">#000</color>
+    <color name="black">#000</color>
+    <color name="white">#FFF</color>
+    <color name="purple">#ff673ab7</color>
+    <color name="menucolor">#fff7fff2</color>
+    <string name="title_activity_control__panel">Control_Panel</string>
+    <string name="action_settings">Settings</string>"
+
+
+</resources>

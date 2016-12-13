@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:background="#00fffdfb">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Access Point:"
+                android:id="@+id/textView"
+                android:paddingLeft="7dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/SSIDtext"
+                android:layout_weight="1"
+                android:text="ARDUINO"
+                android:textColor="#c7ff8f0a"
+                android:gravity="center|center_vertical"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/tXtView"
+                android:text="Enter the Password:"
+                android:paddingLeft="7dp"
+                android:paddingTop="7dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Incorrect!"
+                android:id="@+id/incorrecttext"
+                android:textColor="#ffff3329"
+                android:singleLine="true"
+                android:paddingLeft="6dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="1"
+            android:paddingLeft="15dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="15dp"
+            android:gravity="center">
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="37dp"
+                android:id="@+id/passText"
+                android:layout_weight="0.67"
+                android:password="true"
+                android:background="#ffe2e6dd" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
